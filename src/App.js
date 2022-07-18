@@ -1,13 +1,17 @@
 import React from 'react';
-import './App.css';
 import LabECommerce from './Components/LabECommerce/LabECommerce.js';
 
 
 function App() {
   return (
+    <div>
      <LabECommerce/>
-  
-  )
+<p olalslaslaslalslsa/>
+    
+  <p olalslaslaslalslsa/>
+
+  </div>
+  );
     
 }
 export default App;
