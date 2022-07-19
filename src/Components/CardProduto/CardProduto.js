@@ -1,5 +1,5 @@
 import React from "react";
-
+import testeImagem from '../../Images/Produtos/Teste.jpg'
 import { CardProdutoStyle, ImagemProdutoStyled } from "./CardProdutoStyle";
 
 const CardProduto = (props) => {
@@ -10,6 +10,7 @@ const CardProduto = (props) => {
                 <p> {item.nome} </p>
                 <p>{item.valorNovo}</p>
                 <ImagemProdutoStyled src={item.imagem}/>
+                <ImagemProdutoStyled src={testeImagem}/>
             </CardProdutoStyle>
         )
 
