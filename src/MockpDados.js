@@ -1,3 +1,5 @@
+import img from './Images/Produtos/Teste.jpg';
+
 export const produtos = [
     {
         id: 1,
@@ -13,7 +15,7 @@ export const produtos = [
         id: 2,
         nome: 'B',
         descricao: '',
-        imagem:'./Images/Produtos/Teste.jpg',
+        imagem:{img},
         quantidade: 1,
         promocao: false,
         valorAntigo: 0,
