@@ -1,0 +1,43 @@
+[
+    {
+        "id":"1",
+        "name": "Produto 1",
+        "value": 100,
+        "imageUrl": "https://picsum.photos/200/200"
+    },
+
+    {
+        "id": "2",
+        "name": "Foguete da Missão Apollo 11",
+        "value": 2000,
+        "imageUrl": "https://picsum.photos/203/200"
+    },
+
+    {
+        "id": "3",
+        "name": "Produto Legal",
+        "value": 30,
+        "imageUrl": "https://picsum.photos/200/200"
+    },
+
+    {
+        "id": "4",
+        "name": "Capacete",
+        "value": 400,
+        "imageUrl": "https://picsum.photos/203/200"
+    },
+    
+    {
+        "id": "5",
+        "name": "Roupa",
+        "value": 500,
+        "imageUrl": "https://picsum.photos/201/200"
+    },
+
+    {
+        "id": "6",
+        "name": "Bota",
+        "value": 600,
+        "imageUrl": "https://picsum.photos/200/200"
+    }
+]
