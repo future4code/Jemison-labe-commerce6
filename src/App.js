@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
@@ -9,7 +10,6 @@ import { DivPai } from './style';
 // lista de dados para utilizar
 import cardslist from "../src/data/cards.json"
 
-
 function App() {
 
   const [cards] = useState(cardslist)
@@ -20,6 +20,7 @@ function App() {
   const [order, setOrder] = useState("asc")
 
   return (
+
     <>
       <Header/>
       <DivPai>
@@ -72,6 +73,7 @@ function App() {
       </DivPai>
     </>
   );
+    
 }
-
 export default App;
+
