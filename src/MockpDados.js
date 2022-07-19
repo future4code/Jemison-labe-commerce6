@@ -3,7 +3,7 @@ export const produtos = [
         id: 1,
         nome: 'A',
         descricao: '',
-        imagem:'./Images/Produtos/Teste.jpg',
+        imagem: './Images/Produtos/Teste.jpg',
         quantidade: 1,
         promocao: false,
         valorAntigo: 0,
