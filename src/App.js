@@ -1,11 +1,10 @@
 
 import React, { useState } from 'react';
-import './App.css';
-import Header from './Components/Header/Header.js';
-import Filtro from './Components/Filtro/Filtro.js';
-import Carrinho from './Components/Carrinho/Carrinho.js';
-import Card from './Components/Card/Card.js';
-import { DivPai } from './style';
+import Header from './components/Header/Header.js';
+import Filtro from './components/Filtro/Filtro.js';
+import Carrinho from './components/Carrinho/Carrinho.js';
+import Card from './components/Card/Card.js';
+import { DivPai } from './style.js';
 
 // lista de dados para utilizar
 import cardslist from "../src/data/cards.json"

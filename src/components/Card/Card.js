@@ -1,14 +1,13 @@
 import React from "react";
-import { Cards } from './style'
-
+import { Cards, Nome, Valor, Imagem, Comprar, Botao } from './CardStyle.js'
+import BotaoImg from '../../Images/comprarTeste.png'
 const Card = (props) => {
     return(
         <Cards>
-            <img src={props.card.imageUrl} alt={'Imagem do produto'}/>
-            <div> {props.card.name} </div>
-            <div> R$ {props.card.value}</div>
-            <button>Adicionar ao carrinho</button>
-        </Cards>
+            <Nome> {props.card.name} </Nome>
+            <Imagem src={props.card.imageUrl} alt={'Imagem do produto'}/>
+            <Valor>R$ {props.card.value} <Comprar><Botao src={BotaoImg}/> </Comprar></Valor>
+         </Cards>
 
     )
 }
