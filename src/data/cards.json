@@ -36,8 +36,8 @@
 
     {
         "id": "6",
-        "name": "Bota",
-        "value": 600,
+        "name": "Viagem até Júpiter(Apenas Ida)",
+        "value": 60000.00,
         "imageUrl": "https://picsum.photos/200/200"
     }
 ]
