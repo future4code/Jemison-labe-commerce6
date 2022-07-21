@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import Header from './Components/Header/Header';
-import Filtro from './Components/Filtro/Filtro.js';
-import Carrinho from './Components/Carrinho/Carrinho.js';
-import Card from './Components/Card/Card';
+import Header from './components/Header/Header';
+import Filtro from './components/Filtro/Filtro.js';
+import Carrinho from './components/Carrinho/Carrinho.js';
+import Card from './components/Card/Card';
 import { DivPai } from './style.js';
 
 // lista de dados para utilizar
