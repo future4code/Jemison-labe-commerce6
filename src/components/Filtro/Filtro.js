@@ -27,7 +27,7 @@ const Filtro =(props) => {
                 onChange={(ev)=>{props.setQuery(ev.target.value)}}
             />
 
-        <label for="sortingParameter">Ordenar por: </label>
+        <label htmlFor="sortingParameter">Ordenar por: </label>
             <select
                 name="sortingParameter"
                 value={props.sortingParameter}

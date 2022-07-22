@@ -2,11 +2,23 @@ import React from "react";
 import { Cards, Nome, Valor, Imagem, Comprar, Botao } from './CardStyle.js'
 import BotaoImg from '../../Images/comprarTeste.png'
 const Card = (props) => {
+    const product = {
+        id: props.card.id,
+        imageUrl: props.card.imageUrl,
+        name: props.card.name,
+        value: props.card.value
+    }
+
+    
     return(
         <Cards>
-            <Nome> {props.card.name} </Nome>
-            <Imagem src={props.card.imageUrl} alt={'Imagem do produto'}/>
-            <Valor>R$ {props.card.value} <Comprar><Botao src={BotaoImg}/> </Comprar></Valor>
+            <Nome> {product.name} </Nome>
+            <Imagem src={product.imageUrl} alt={'Imagem do produto'}/>
+            <Valor>R$ {product.value} 
+                <Comprar onClick={() => props.onClick(product)}>
+                    <Botao src={BotaoImg}/> 
+                </Comprar>
+            </Valor>
          </Cards>
 
     )
