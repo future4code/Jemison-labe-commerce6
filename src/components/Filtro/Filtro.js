@@ -1,6 +1,6 @@
 import React from "react";
 
-const Filtro =(props) => {
+ const Filtro =(props) => {
     return(
         <div>
             <h3>Filtros</h3>
@@ -48,4 +48,4 @@ const Filtro =(props) => {
     )
 }
 
-export default Filtro;
+export default Filtro
