@@ -78,10 +78,10 @@ function App() {
   return (
 
     <>
-      <Header/>
+      
       <DivPai>
-        <div style={{display: 'flex', flexDirection: 'column'}}>
-
+        <Header/>
+     
         <Filtro
           query={query}
           minPrice={minPrice}
@@ -125,7 +125,7 @@ function App() {
             return <Card key={product.id} card={product} onClick={addProductToCart}/>
           })
         }
-        </div>
+        
         <Cart products={productsCart} onRemoveProductCart={onRemoveProductCart}/>
       </DivPai>
     </>
