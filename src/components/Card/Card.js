@@ -16,7 +16,7 @@ const Card = (props) => {
         <Cards>
             <Nome> {product.name} </Nome>
             <Imagem src={product.imageUrl} alt={'Imagem do produto'}/>
-            <Valor>R$ {product.value} 
+            <Valor>R$ {product.value},00
                 <Comprar onClick={() => props.onClick(product)}>
                     <Botao src={BotaoImg}/> 
                 </Comprar>

@@ -3,8 +3,13 @@ import React, { useState } from 'react';
 import Header from './components/Header/Header';
 import Filtro from './components/Filtro/Filtro.js';
 import Card from './components/Card/Card.js';
-import { DivComCards, DivPai,FiltroHeaderDiv,HeaderComBusca, Home, NavFiltro } from './style.js';
-
+import { DivComCards, DivPai,FiltroHeaderDiv,Footer,HeaderComBusca, Home, NavFiltro, Logo,TextFooter, ImgFooter} from './style.js';
+//imagens
+import LogoFooter from './Images/LOGO.png';
+import Face from './Images/Face.png';
+import Insta from './Images/Insta.png';
+import Whats from './Images/Whats.png';
+import Twitter from './Images/Twitter.png';
 // lista de dados para utilizar
 import cardslist from "./data/cards.json"
 import Cart from './components/Cart/Cart.js';
@@ -143,6 +148,17 @@ function App() {
         </DivComCards>
         <Cart products={productsCart} onRemoveProductCart={onRemoveProductCart}/>
         </Home>
+        <Footer>
+          <Logo src={LogoFooter}/>
+         <TextFooter>&copy;2022 LBN_SPACE TRIP. Todos os direitos reservados.</TextFooter>
+        <ImgFooter src={Whats}/>
+        <ImgFooter src={Insta}/>
+        <ImgFooter src={Face}/>
+        <ImgFooter src={Twitter}/>
+        </Footer>
+        
+     
+        
       </DivPai>
     </>
   );
