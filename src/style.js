@@ -28,6 +28,7 @@ display: flex;
 flex-wrap:wrap;
 flex-direction:column;
 width: 15%;
+height:40%;
 border: 4px solid #45525B;
 background-color:#F6B057;
 border-radius: 20px;
@@ -76,7 +77,10 @@ height: 80px;
 align-self:center;
 margin-left:30px;
 :hover{
-    width:110px;
-    height:110px;
+   border: 6px solid white;
+   border-radius:100%100%;
+   width:68px;
+   height:68px;
 }
 `;
+

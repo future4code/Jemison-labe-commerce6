@@ -9,9 +9,9 @@ import logo from '../../Images/LOGO.png'
 
 
 const Header = () => {
-    return(
+    return (
         <DivHeader>
-           <LogoStyled src= {logo} />
+            <LogoStyled src={logo} />
         </DivHeader>
     )
 }

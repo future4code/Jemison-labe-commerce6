@@ -5,6 +5,7 @@ export const FiltroStyled = styled.div`
 display:flex;
 flex-direction:column;
 margin:7px;
+height:40%
 `;
 
 //estilização ddp filtro de busca não funciona
