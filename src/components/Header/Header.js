@@ -1,10 +1,17 @@
-import React from "react";
-import { DivHeader } from './style';
+import React,{useState} from "react";
+import { DivHeader, LogoStyled } from './style.js';
+import logo from '../../Images/LOGO.png'
+
+
+
+
+
+
 
 const Header = () => {
     return(
         <DivHeader>
-            <h3>Header</h3>
+           <LogoStyled src= {logo} />
         </DivHeader>
     )
 }
