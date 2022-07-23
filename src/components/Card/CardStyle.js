@@ -26,13 +26,15 @@ justify-content:center;
 
 `;
 export const Imagem = styled.img`
-
+width:90%;
 `;
 export const Comprar = styled.button`
+border:none;
+background:none;
 margin-left:80%;
 `;
 
 export const Botao = styled.img`
-width:30px;
+width:60px;
 
 `;
