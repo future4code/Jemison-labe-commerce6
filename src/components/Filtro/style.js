@@ -15,8 +15,10 @@ height:25px;
 
 
 export const FiltroStyledHeader = styled.input`
-width: 600px;
+width: 700px;
 height: 45px;
-font-size:30px;
+font-size:25px;
+padding-left: 6px;
 border-radius: 20px;
+margin-left:-5%;
 `

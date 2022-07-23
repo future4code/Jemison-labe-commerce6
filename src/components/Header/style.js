@@ -10,6 +10,6 @@ export const DivHeader = styled.div`
 export const LogoStyled = styled.img`
 width: 20%;
 margin:-40px;
-padding:0px;
+padding-left:1%;
 
 `
