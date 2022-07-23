@@ -3,11 +3,13 @@ import React, { useState } from 'react';
 import Header from './components/Header/Header';
 import Filtro from './components/Filtro/Filtro.js';
 import Card from './components/Card/Card.js';
-import { DivPai } from './style.js';
+import { DivComCards, DivPai,FiltroHeaderDiv,HeaderComBusca, Home, NavFiltro } from './style.js';
 
 // lista de dados para utilizar
-import cardslist from "../src/data/cards.json"
+import cardslist from "./data/cards.json"
 import Cart from './components/Cart/Cart.js';
+
+import { FiltroHeader } from './components/Filtro/Filtro.js';
 
 
 function App() {
@@ -80,8 +82,20 @@ function App() {
     <>
       
       <DivPai>
+        <HeaderComBusca>
         <Header/>
-     
+         <FiltroHeaderDiv>
+         <FiltroHeader 
+        query={query}
+         sortingParameter={sortingParameter}
+          order={order}
+          setQuery={setQuery}
+          setSortingParameter={setSortingParameter}
+          setOrder={setOrder}/>
+          </FiltroHeaderDiv>
+     </HeaderComBusca>
+<Home>
+     <NavFiltro>
         <Filtro
           query={query}
           minPrice={minPrice}
@@ -94,9 +108,10 @@ function App() {
           setSortingParameter={setSortingParameter}
           setOrder={setOrder}
         />
-        
-        <h3>Cards</h3>
-          {products
+        </NavFiltro>
+
+<DivComCards>
+        {products
           .filter((product)=>{
             return product.name.includes(query)
           })
@@ -125,8 +140,9 @@ function App() {
             return <Card key={product.id} card={product} onClick={addProductToCart}/>
           })
         }
-        
+        </DivComCards>
         <Cart products={productsCart} onRemoveProductCart={onRemoveProductCart}/>
+        </Home>
       </DivPai>
     </>
   );

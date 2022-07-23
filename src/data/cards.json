@@ -1,43 +1,46 @@
+
 [
     {
         "id":"1",
-        "name": "Produto 1",
-        "value": 100,
-        "imageUrl": "https://picsum.photos/200/200"
+        "name": "Onibus Espacila CSS VII",
+        "value": 700000,
+        "imageUrl":"https://i.ibb.co/N7zS2yx/Css.jpg"
     },
 
     {
         "id": "2",
-        "name": "Foguete da Missão Apollo 11",
-        "value": 2000,
-        "imageUrl": "https://picsum.photos/203/200"
+        "name": "Capsula Espacial JSX IX",
+        "value": 150000,
+        "imageUrl": "https://i.ibb.co/b2Pfcv0/JSX.jpg"
     },
 
     {
         "id": "3",
-        "name": "Produto Legal",
-        "value": 30,
-        "imageUrl": "https://picsum.photos/200/200"
+        "name": "Foguete Lógica II",
+        "value": 800000,
+        "imageUrl": "https://i.ibb.co/VtXBnkk/L-gica-1.jpg"
     },
 
     {
         "id": "4",
-        "name": "Capacete",
-        "value": 400,
-        "imageUrl": "https://picsum.photos/203/200"
+        "name": "Onibus Espacial React IV",
+        "value": 400000,
+        "imageUrl": "https://i.ibb.co/0DHPYc0/React.jpg"
     },
     
     {
         "id": "5",
-        "name": "Roupa",
-        "value": 500,
-        "imageUrl": "https://picsum.photos/201/200"
+        "name": "Foguete JS XVI",
+        "value": 500000,
+        "imageUrl": "https://i.ibb.co/1dkwyZv/JS.jpg"
     },
 
     {
         "id": "6",
-        "name": "Viagem até Júpiter(Apenas Ida)",
-        "value": 60000.00,
-        "imageUrl": "https://picsum.photos/200/200"
+        "name": "Foguete Styled-Components",
+        "value": 300000,
+        "imageUrl": "https://i.ibb.co/PmcSY6H/Styled.jpg"
     }
 ]
+
+

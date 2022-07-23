@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const AsideCart = styled.aside`
-    background-color: coral;
+    background-color: #F47E20;
+    border: 4px solid #45525B;
+    border-radius:20px;
     padding: 16px;
-    border: 1px solid black;
-    width: 300px;
+    border: 4px solid ;
+    width: 20%;
+    margin-bottom:20px;
+    
 
 `
 

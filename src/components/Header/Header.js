@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import { DivHeader, LogoStyled } from './style.js';
 import logo from '../../Images/LOGO.png'
 

@@ -1,11 +1,12 @@
 import React from "react";
+import { FiltroInputStyled, FiltroStyled, FiltroStyledHeader } from "./style";
 
  const Filtro =(props) => {
     return(
-        <div>
-            <h3>Filtros</h3>
+        <FiltroStyled>
+            <h3>Busca Avançada</h3>
             <label>Valor mínimo</label>
-            <input
+            <FiltroInputStyled
                 type="number"
                 placeholder="Digite o valor"
                 value={props.minPrice}
@@ -13,7 +14,7 @@ import React from "react";
             />
 
             <label>Valor máximo</label>
-            <input
+            <FiltroInputStyled
                 type="number" 
                 placeholder="Digite o valor"
                 value={props.maxPrice}
@@ -21,7 +22,7 @@ import React from "react";
             />
 
             <label>Buscar por nome</label>
-            <input
+            <FiltroInputStyled
                 placeholder="Produto"
                 value={props.query}
                 onChange={(ev)=>{props.setQuery(ev.target.value)}}
@@ -44,8 +45,20 @@ import React from "react";
                 <option value={"asc"}>Crescente</option>
                 <option value={"desc"}>Decrescente</option>
             </select>
-        </div>
+        </FiltroStyled>
     )
 }
 
-export default Filtro
+export default Filtro;
+
+export const FiltroHeader = (props) =>{
+    return(
+        <div>
+            <FiltroStyledHeader
+                placeholder="Busque seu Foguete"
+                value={props.query}
+                onChange={(ev)=>{props.setQuery(ev.target.value)}}
+                />
+    </div>
+    )
+}
