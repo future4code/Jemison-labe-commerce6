@@ -1,6 +1,6 @@
 import React from "react";
 import { Cards, Nome, Valor, Imagem, Comprar, Botao } from './CardStyle.js'
-import BotaoImg from '../../Images/comprarTeste.png'
+import BotaoImg from '../../Images/Comprar.png'
 const Card = (props) => {
     const product = {
         id: props.card.id,
