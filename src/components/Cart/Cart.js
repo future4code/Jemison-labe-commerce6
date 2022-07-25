@@ -1,5 +1,5 @@
 import React from "react";
-import { AsideCart, CardItem, ProductName, RemoverBtn, ImgBtnRemover } from './style';
+import { AsideCart, CardItem, ProductName, RemoverBtn, ImgBtnRemover, } from './style';
 import Remover from '../../Images/Remover.png';
 
 
@@ -14,7 +14,7 @@ const Cart = ({ products, onRemoveProductCart }) => {
                 <CardItem key={product.id}>
                     {product.qtt}x <ProductName>{product.name}</ProductName>
                     <RemoverBtn onClick={() => onRemoveProductCart(product.id)}>
-                        <ImgBtnRemover src={Remover}/>
+                        <ImgBtnRemover src={Remover} />
                     </RemoverBtn>
                 </CardItem>
             ))}

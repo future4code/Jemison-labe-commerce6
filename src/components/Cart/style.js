@@ -6,7 +6,8 @@ export const AsideCart = styled.aside`
     border-radius:20px;
     padding: 16px;
     border: 4px solid ;
-    width: 20%;
+   width:20%;
+   height:40%;
     margin-bottom:20px;
     
 
@@ -33,12 +34,16 @@ border:none;
 background:none;
 `;
 export const ImgBtnRemover = styled.img`
-width:70px;
+width:50px;
 
 :hover{
-  border: 1px solid white;
+  border: 2px solid black;
   border-radius:100%;
-  width:68px;
+  width:46px;
   background-color:white ;
 }
-`
+`;
+
+
+
+
