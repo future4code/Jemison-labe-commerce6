@@ -1,0 +1,46 @@
+
+[
+    {
+        "id":"1",
+        "name": "Ônibus Espacial CSS-VII",
+        "value": 700000,
+        "imageUrl":"https://i.ibb.co/N7zS2yx/Css.jpg"
+    },
+
+    {
+        "id": "2",
+        "name": "Cápsula Espacial JSX-IX",
+        "value": 150000,
+        "imageUrl": "https://i.ibb.co/b2Pfcv0/JSX.jpg"
+    },
+
+    {
+        "id": "3",
+        "name": "Foguete Lógica-II",
+        "value": 800000,
+        "imageUrl": "https://i.ibb.co/VtXBnkk/L-gica-1.jpg"
+    },
+
+    {
+        "id": "4",
+        "name": "Ônibus Espacial React-IV",
+        "value": 400000,
+        "imageUrl": "https://i.ibb.co/0DHPYc0/React.jpg"
+    },
+    
+    {
+        "id": "5",
+        "name": "Foguete JS-XVI",
+        "value": 500000,
+        "imageUrl": "https://i.ibb.co/1dkwyZv/JS.jpg"
+    },
+
+    {
+        "id": "6",
+        "name": "Foguete Styled-Components-XV",
+        "value": 300000,
+        "imageUrl": "https://i.ibb.co/PmcSY6H/Styled.jpg"
+    }
+]
+
+
